@@ -1,0 +1,14 @@
+< en_US.lang - English localization file for Draco Animus Too >
+
+#Dragon Eggs
+egg.wildbill22_draco_too_intoMyDragon=into a My Dragon!
+
+#Items
+item.wildbill22_draco_too_myDragonStaff.name=My Dragon Staff
+item.wildbill22_draco_too_myDragonEgg.name=My Dragon Egg
+
+#Blocks (tiles)
+tile.myDragonEggBlock.name=My Dragon Egg
+
+#Dragons
+entity.wildbill22_draco_too.aquilaDraco.name=Draco Mia
