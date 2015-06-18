@@ -15,11 +15,14 @@ import net.wildbill22.draco_too.REFERENCE;
 
 public class ItemMyDragonEgg extends ItemDragonEgg {
 	// This name must be unique from all other dragons
+	// TODO: Set this to match the texture name
 	public static final String name = "myDragonEgg";
 
 	public ItemMyDragonEgg() {
 		super(name, REFERENCE.MODID);
 		String dragonName = EntityDracoMia.name;
+		
+		// TODO: Add whatever dragon abilities you want and which foods it can eat here
 		Abilities.addAbility(dragonName, Abilities.EAGLEDRAGON);
 		this.addDragonFood(dragonName, Items.beef);
 		this.addDragonFood(dragonName, Items.cooked_beef);
@@ -33,6 +36,7 @@ public class ItemMyDragonEgg extends ItemDragonEgg {
 	public void addInformation(ItemStack stack, EntityPlayer player, List list, boolean par4) {
 		list.add(StatCollector.translateToLocal("egg.wildbill22_draco_putThisEgg"));
 		list.add(StatCollector.translateToLocal("egg.wildbill22_draco_youWillGetStaff")); 
+		// TODO: Enter the text for this in the lang file
 		list.add(StatCollector.translateToLocal("egg.wildbill22_draco_too_intoMyDragon"));
 	}
 	

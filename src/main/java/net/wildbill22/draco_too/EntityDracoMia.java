@@ -7,8 +7,8 @@ import net.wildbill22.draco.entities.dragons.EntityFlyingMob;
 public class EntityDracoMia  extends EntityFlyingMob implements IMob {
 	public EntityDracoMia(World p_i1587_1_) {
 		super(p_i1587_1_);
-		// TODO Auto-generated constructor stub
 	}
 
+	// This name should match your textures
 	public static final String name = "myDragon";
 }

@@ -8,6 +8,7 @@ import net.wildbill22.draco_too.items.ModItems;
 
 public class BlockMyDragonEgg extends ModBlocks {
 	// This name must be unique from all other dragons
+	// TODO: Set this to match the texture name
 	public static final String name = "myDragonEggBlock";
 
 	public BlockMyDragonEgg() {

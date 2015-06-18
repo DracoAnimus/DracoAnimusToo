@@ -7,6 +7,7 @@ import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.util.MathHelper;
 import net.wildbill22.draco.entities.player.DragonPlayer;
 
+// TODO: Put your model here that you create in Techne
 public class ModelDracoMia extends ModelBase
 {
     //fields for Eagle Dragon

@@ -39,7 +39,7 @@ public class Core {
 		draco_tooProxy.registerSounds();
 		draco_tooProxy.registerSubscriptions();
 		// Dragons
-		RenderDracoMia daHandler = new RenderDracoMia(new ModelDracoMia(), 0.5F);        // Eagle Dragon
+		RenderDracoMia daHandler = new RenderDracoMia(new ModelDracoMia(), 0.5F);        // My Dragon
 		DragonRegistry.instance().registerDragonRendererCreationHandler(daHandler);
 	}
 

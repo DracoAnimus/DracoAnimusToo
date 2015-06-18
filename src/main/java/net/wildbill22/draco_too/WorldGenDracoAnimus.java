@@ -26,6 +26,7 @@ public class WorldGenDracoAnimus implements IWorldGenerator {
 		// Eggs with the normal spawn chance from the configuration
 		int spawnChance = BALANCE.DRAGON_EGG_SPAWN_CHANCE;
 		if (chance < spawnChance) {
+			// TODO: Set which biomes you want the egg to appear in
 			if (biome == BiomeGenBase.extremeHills || biome == BiomeGenBase.extremeHillsEdge || biome == BiomeGenBase.extremeHillsPlus) {
 				if (generateDragonEgg(world, random, x, world.getTopSolidOrLiquidBlock(x, z), z, ModBlocks.myDragonEgg))
 					LogHelper.info("WorldGenDracoAnimus: Spawned a Draco Mia Egg at: " + x + "," + world.getTopSolidOrLiquidBlock(x, z) + "," + z); 
