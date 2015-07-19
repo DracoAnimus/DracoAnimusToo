@@ -18,7 +18,7 @@ public class RenderDracoMia extends RendererLivingEntity  implements IDragonRend
 
 	private void setEntityTexture() {
 		// TODO: Set this to your texture
-		dragonTexture = new ResourceLocation(REFERENCE.MODID + ":textures/models/dracoMia.png");
+		dragonTexture = new ResourceLocation(REFERENCE.MODID + ":textures/models/dracoMia2.png");
 	}
 
 	@Override
